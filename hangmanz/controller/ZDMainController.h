@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ZDMainController.h
 //  hangmanz
 //
 //  Created by Jorge Moura on 31/10/2014.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+
+@interface ZDMainController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate>
+
 
 
 @end
-
